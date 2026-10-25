@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-image: url("images/campus-scene.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dce8e5;
+    
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.brand {
+    color: #142928;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    color: #285f60;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links a {
+    color: #142928;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #40797a;
+}
+
+.nav-button {
+    background-color: #40797a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.tagline {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: #142928;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.button-primary {
+    background-color: #40797a;
+    color: white;
+}
+
+.button-secondary {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #142928;
+    border: 1px solid white;
+}
+
+.button:hover,
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #142928;
+}
+
+
